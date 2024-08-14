@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(#179BAE, #00d676);
+}
+
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+.card h2{
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.card .joke{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 30px 20px;
+}
+
+.card button{
+    padding: 10px 20px;
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #5B99C2;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card button:hover{
+    opacity: 0.8;
+}
+
+
+@media (max-width: 600px) {
+    .card{
+        margin: 10px;
+    }
+}
